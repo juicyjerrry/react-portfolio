@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import Header from './components/Header'
 import Nav from './components/Nav'
-import Content from './components/Content'
+import Project from './components/Content'
 import Footer from './components/Footer'
 
 import './App.css';
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Nav />
       <Header />
-      <Content />
+      <Project />
       {/* <Footer /> */}
     </div>
   );
