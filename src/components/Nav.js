@@ -5,16 +5,16 @@ export default function Nav() {
   return (
     <nav className="Nav">
         <div>
-          <a href="#">Home</a>
+          <a href="#AboutMe">About Me</a>
         </div>
         <div>
-          <a href="#">Register</a>
+          <a href="#Content">Portfolio</a>
         </div>
         <div>
-          <a href="#">Now</a>
+          <a href="#Contact">Contact</a>
         </div>
         <div>
-          <a href="#">Contact</a>
+          <a href="#Resume">Resume</a>
         </div>
     </nav>
   );

@@ -1,0 +1,25 @@
+.content {
+    margin-top: 200px;
+    background: black;
+    height: 100%;
+  }
+
+  .content h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-container {
+    display: flexbox;
+    justify-content: center;
+    color: white;
+    border: 3px, white;
+  }
+
+  .flex-container img {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+  }
