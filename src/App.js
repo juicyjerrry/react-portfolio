@@ -4,12 +4,18 @@ import Nav from './components/Nav'
 import Project from './components/Content'
 import Footer from './components/Footer'
 
+import React from 'react';
+import { useState } from 'react'
+
 import './App.css';
+
+const [ aboutMe, setAboutMe ] = useState ( false )
 
 function App() {
   return (
     <div>
-      <Nav />
+      <Nav
+      setAboutMe = { setAboutMe } />
       <Header />
       <Project />
       {/* <Footer /> */}
