@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import Header from './components/Header'
-import Nav from './components/Nav'
-import Project from './components/Content'
-import Footer from './components/Footer'
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+import NavTabs from "./components/NavTabs";
 
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <div>
-      <Nav />
-      <Header />
-      <Project />
-      {/* <Footer /> */}
+      <NavTabs />
+      <PortfolioContainer />
     </div>
   );
 }

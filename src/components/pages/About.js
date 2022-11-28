@@ -2,7 +2,7 @@ import React from 'react';
 import hello from '../assets/hell0.gif'
 import Profile from '../assets/Pic.jfif'
 
-// Here we are importing a CSS file as a dependency
+// Need to update the css for this, used to be header
 import '../styles/Header.css';
 
 function Header() {
@@ -31,4 +31,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default About;
