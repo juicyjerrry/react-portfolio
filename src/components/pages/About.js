@@ -1,11 +1,11 @@
 import React from 'react';
-import hello from '../assets/hell0.gif'
-import Profile from '../assets/Pic.jfif'
+import hello from '../../assets/hell0.gif'
+import Profile from '../../assets/Pic.jfif'
 
 // Need to update the css for this, used to be header
-import '../styles/Header.css';
+import '../../styles/About.css';
 
-function Header() {
+function About() {
   return (
     <header className="header">
       <h1>About Me</h1>

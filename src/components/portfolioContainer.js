@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import NavTabs from './NavTabs'; //good
 import Resume from './pages/Resume'; //good
 import About from './pages/About'; //good
 import Portfolio from './pages/Portfolio'; //good
@@ -23,16 +23,13 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
         return <Resume />;
     }
-    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
     </div>
   );
