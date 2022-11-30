@@ -22,9 +22,6 @@
 
   .flex-container p {
     display: block;
-    margin: 1%;
-    height: 10%;
-    width: 15%;
   }
 
   .flex-container h2 {
@@ -36,6 +33,6 @@
     display: block;
     justify-content: center;
     margin: 5%;
-    height: 40%;
-    width: 40%;
+    height: 80%;
+    width: 80%;
   }
