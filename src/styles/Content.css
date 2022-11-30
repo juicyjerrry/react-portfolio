@@ -1,13 +1,14 @@
+*{
+  background-color: black;
+}
 .content {
-    margin-top: 200px;
-    background: black;
     height: 100%;
   }
 
   .content h1{
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: Center;
   }
 
   .flex-container {
@@ -18,6 +19,7 @@
 
   .flex-container div {
     display: flex;
+    justify-content: space-between;
   }
 
   .flex-container p {
@@ -31,8 +33,7 @@
 
   .flex-container img {
     display: block;
-    justify-content: center;
     margin: 5%;
-    height: 80%;
-    width: 80%;
+    height: 30vh;
+    width: 30vw;
   }

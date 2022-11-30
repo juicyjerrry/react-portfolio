@@ -1,9 +1,31 @@
 import React from 'react';
 
+const styles = {
+	header: {
+  	Display: "flex",
+    
+    flexDirection: "row",
+
+    flexWrap: "noWrap",
+
+    justifyContent: "spaceBetween",
+
+    alignItems: 'flex-start',
+
+    alignContent: 'flexStart',
+
+    background: "black",
+
+    color: "white",
+
+    textDecoration: "none",
+  },
+};
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs" style={styles.header}>
+      <li className="nav-item" >
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
