@@ -2,13 +2,17 @@ import React from "react";
 import Footer from "./components/pages/Footer"
 import PortfolioContainer from "./components/PortfolioContainer";
 
-// import './App.css';
-
+const styles = {
+  div: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
+}
 function App() {
   return (
     <div>
       <PortfolioContainer />
-      <div>
+      <div styles={styles.div}>
         <Footer />
       </div>
     </div>

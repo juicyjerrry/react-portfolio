@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
 const styles = {
-
+    button: {
+        color: "white",
+    }
 };
 
 function Contact() {
@@ -94,7 +96,7 @@ function Contact() {
                     type="text"
                     placeholder="message"
                 /> 
-                <button type="button" onClick={handleFormSubmit}>
+                <button style={styles.button} type="button" onClick={handleFormSubmit}>
                     Submit
                 </button>
             </form>
