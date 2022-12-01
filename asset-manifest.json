@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jeremiahPortfolio/static/css/main.9769a36e.css",
+    "main.js": "/jeremiahPortfolio/static/js/main.236eb043.js",
+    "static/js/787.a2cb61a6.chunk.js": "/jeremiahPortfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Fetch-A-Pet-Screenshot.jpg": "/jeremiahPortfolio/static/media/Fetch-A-Pet-Screenshot.e42886100903274c51d3.jpg",
+    "static/media/ThoughtMachine.PNG": "/jeremiahPortfolio/static/media/ThoughtMachine.3d2f70ba3035f6b90504.PNG",
+    "static/media/EcommerceDatabase.png": "/jeremiahPortfolio/static/media/EcommerceDatabase.911f459c814078e374b3.png",
+    "static/media/ForecastAPI.png": "/jeremiahPortfolio/static/media/ForecastAPI.812ba1b0e9ebbd251497.png",
+    "static/media/Pic.jfif": "/jeremiahPortfolio/static/media/Pic.497b967b2e83b85b823a.jfif",
+    "static/media/PWATextEditor.png": "/jeremiahPortfolio/static/media/PWATextEditor.64e82d297b75af0c7856.png",
+    "static/media/linkedin.png": "/jeremiahPortfolio/static/media/linkedin.dc3a4c59f92a57fac170.png",
+    "static/media/github.png": "/jeremiahPortfolio/static/media/github.df00e590c054d3868db4.png",
+    "index.html": "/jeremiahPortfolio/index.html",
+    "main.9769a36e.css.map": "/jeremiahPortfolio/static/css/main.9769a36e.css.map",
+    "main.236eb043.js.map": "/jeremiahPortfolio/static/js/main.236eb043.js.map",
+    "787.a2cb61a6.chunk.js.map": "/jeremiahPortfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9769a36e.css",
+    "static/js/main.236eb043.js"
+  ]
+}
