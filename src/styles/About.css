@@ -4,8 +4,9 @@
 }
 
 .header h1 {
-  margin: 0;
-  text-align: center;
+  display: block;
+  justify-content: center;
+  align-content: center;
   color: white;
   font-size: 3rem;
 }
@@ -21,12 +22,16 @@
 }
 
 .header .profilePic img {
-  height: 10%;
-  width: 10%;
+  height: 10em;
+  width: 10em;
 }
 
 .header ul {
   display: flex;
   justify-content: center;
   color: white;
+}
+
+.link {
+  text-decoration: none;
 }
