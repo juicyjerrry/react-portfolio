@@ -75,7 +75,7 @@ animation: drive 12s ease-in-out infinite normal 0s;
 } */
 
 /* when i scroll into view play this animation */
-@media () {
+@media (hover: hover) {
   .Now ul {
     /* animation: media 2s ease-in 1 normal 1s;
     transition: 2s; */
