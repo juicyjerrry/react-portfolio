@@ -35,3 +35,97 @@
 .link {
   text-decoration: none;
 }
+
+/* animations */
+/* TODO: when this hits the edge of the screen it dissapears */
+/* .car:on-click {
+  animation-name: drive;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
+  box-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  } */
+
+@keyframes drive {
+  from { transform: translateX(-100vw) }
+
+  to { transform: translateX(100vw) }
+}
+
+.car {
+animation: drive 12s ease-in-out infinite normal 0s;
+}
+
+/* list stagger slides in from left  */
+.Now {
+  display: flexbox;
+  flex-direction: column;
+  margin-top: 20vw;
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+/* @keyframes media {
+  from { transform: translateX(-100vw) }
+  to { transform: translateX(0vw) }
+} */
+
+/* when i scroll into view play this animation */
+@media () {
+  .Now ul {
+    /* animation: media 2s ease-in 1 normal 1s;
+    transition: 2s; */
+    transform: translateX(-100vw);
+    transition: 2s;
+  }
+
+  .Now:hover ul{
+    transform: translateX(0vw)
+  }
+
+  .Now ul:nth-child(1)  {
+    transition-delay: 0.0s;
+  }
+  .Now ul:nth-child(2)  {
+    transition-delay: 0.05s;
+  }
+  .Now ul:nth-child(3)  {
+    transition-delay: 0.1s;
+  }
+  .Now ul:nth-child(4) {
+    transition-delay: 0.15s;
+  }
+  .Now ul:nth-child(5)  {
+    transition-delay: 0.2s;
+  }
+  .Now ul:nth-child(6)  {
+    transition-delay: 0.25s;
+  }
+}
+
+
+
+
+
+.Now li:nth-child(1) {
+  background: #90CAF9;
+}
+.Now li:nth-child(2) {
+  background: #80DEEA;
+}
+.Now li:nth-child(3) {
+  background: #A5D6A7;
+}
+.Now li:nth-child(4) {
+  background: #E6EE9C;
+}
+.Now li:nth-child(5) {
+  background: #FFF176;
+}
+.Now li:nth-child(6)  {
+  background: #FFD54F;
+}
